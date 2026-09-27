@@ -61,17 +61,30 @@ free credit. Lessons 01–08 cost cents. Lessons 09–12 use dedicated GPUs and 
 | 13 | [Capstone projects](13_capstones/lesson.md) | Portfolio projects that show you can do the job | varies |
 | 14 | [Interview prep: internals & scenarios](14_interview_prep/lesson.md) | Explain *how* Fireworks is fast; handle customer scenarios | free |
 
-### Suggested pace (about 6–8 weeks, part-time)
+### Weekend schedule (about 8 hours a day)
 
-- **Week 1:** 00–02. Get very comfortable with the basic API.
-- **Week 2:** 03–04. Structured output and tools are what most customer integrations use.
-- **Week 2½:** 04b–04e, the agents track. Most new customer workloads are agents, so this is
-  worth extra time.
-- **Week 3:** 05–06. Multimodal work and RAG.
-- **Week 4:** 07–08. Production skills. This is where you start to stand out.
-- **Week 5:** 09–10. Deployments and fine-tuning. Budget about $20–50 in credits.
-- **Week 6:** 11–12. The advanced material Fireworks is currently investing in.
-- **Weeks 7–8:** 13–14. Build two capstones, publish them on GitHub, and rehearse the scenarios.
+The whole course fits in one weekend. A few steps (batch jobs, fine-tuning runs, deployments
+warming up) run in the background for an hour or more, so **start those early** and keep working
+on other lessons while they run.
+
+**Saturday: using the API and building agents**
+
+| Block | Modules | Notes |
+|---|---|---|
+| Morning (~3 h) | 00–03 | Setup, first calls, sampling, structured outputs. Get very comfortable with the basic API. |
+| Midday (~3 h) | 04, 04b–04e | Tool calling and the agents track. Most new customer workloads are agents, so give this block your full attention. |
+| Afternoon (~2 h) | 05–07, start 08 | Multimodal work, RAG, production skills. **Start the lesson 08 batch job first thing in this block.** It took about 2 hours in our test run, so check its results at the end of the day. |
+
+**Sunday: deploying, fine-tuning, and getting ready to interview**
+
+| Block | Modules | Notes |
+|---|---|---|
+| Morning (~3 h) | 09, start 10 | Deploy, benchmark, and **delete** a dedicated deployment. Then generate the SFT dataset and **launch the training job** so it trains while you move on. Budget about $20–50 in credits for Sunday. |
+| Midday (~2 h) | 11–12, finish 10 | RFT evaluators and DPO/Training API while training finishes. Then deploy and evaluate your fine-tuned model, and tear the deployment down. |
+| Afternoon (~3 h) | 13–14 | Build **one** capstone (A is the best fit for a weekend), publish it on GitHub, and rehearse the interview scenarios out loud. |
+
+Short on time? Do each lesson's scripts and save the exercises for later. The exercises and a
+second capstone are what turn "completed the course" into a strong portfolio.
 
 ---
 
