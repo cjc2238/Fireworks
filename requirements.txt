@@ -1,0 +1,12 @@
+fireworks-ai>=1.2
+openai>=1.40
+pydantic>=2.6
+python-dotenv>=1.0
+requests>=2.31
+numpy>=1.26
+# Lesson 04d (agent framework demo):
+openai-agents>=0.22
+# Lesson 11 (reinforcement fine-tuning evaluators):
+# eval-protocol
+# Lesson 12 (Training API, needs Python 3.11+):
+# fireworks-ai[training]
